@@ -1,23 +1,21 @@
-# TODO : Your Project Name
+# PenPal reLOADED
 
-TODO : Please provide a detailed project description.
+PenPal reLOADED is a new twist on an old concept. Unlike other pen pal approaches, we allow you to connect with people who have similar interests and tastes that allow you to expand your communication outside of your normal friend circle and learn more about the world around you. 
 
 ## Build status
 
-TODO : Modify to match your project specific Travis Build
-[![Build Status](https://travis-ci.org/infsci2560sp17/full-stack-web.svg?branch=master)](https://travis-ci.org/infsci2560sp17/full-stack-web)
+[![Build Status](https://travis-ci.org/infsci2560sp17/full-stack-web-J-StephanieRose.svg?branch=master)
+
 
 ## Web Site
 
-TODO : Please provide a link to your web site ![](https://...)
+https://penpal-reloaded.herokuapp.com/
 
 ## Key Features
 
-TODO : Please list key features of your project.
-
-* Key Feature 1
-* Key Feature 2
-* Key Feature N
+* Online Interconnectivity with possible offline capabilities (you shouldnt be constrained to only socializing online)
+* You can sync your social media to your PenPal profile to find people you share common interests with
+* PenPal University **coming soon** (allows you to collaborate on academic projects with other students in and outside of your university)
 
 ## Project Details
 
