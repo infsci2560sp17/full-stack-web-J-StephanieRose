@@ -13,7 +13,7 @@ https://penpal-reloaded.herokuapp.com/
 
 ## Key Features
 
-* Online Interconnectivity with possible offline capabilities (you shouldnt be constrained to only socializing online)
+* Online interconnectivity with possible offline capabilities (you shouldnt be constrained to only socializing online)
 * You can sync your social media to your PenPal profile to find people you share common interests with
 * PenPal University **coming soon** (allows you to collaborate on academic projects with other students in and outside of your university)
 
