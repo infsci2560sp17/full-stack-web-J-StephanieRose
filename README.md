@@ -10,19 +10,31 @@ Question 1. What is the proposed name for your Web application?
 
 Question 2. Who is the target audience for your Web application?
 
-       18-35, this is the target audience mainly to avoid age consent requirements. Additionally, if this application were to be a success, it would more than likely branch out to all ages. K-12 and if there is a market for it, elderly communities for individuals who may not have a lot of mobility, but would like to communicate to people outside of their homing environments.
+       18-35, this is the target audience mainly to avoid age consent 
+requirements. Additionally, if this application were to be a success, it 
+would more than likely branch out to all ages. K-12 and if there is a market 
+for it, elderly communities for individuals who may not have a lot of mobility, 
+but would like to communicate to people outside of their homing environments.
 
 Question 3. What problem is it intended to solve for the target audience?
 
-       Having a chance to get to know people outside of their normal circle through common interests and hobbies.
+       Having a chance to get to know people outside of their normal circle 
+       
+       through common interests and hobbies.
 
 Question 4. How will it meet the minimum project requirements?
 
-       It will meet the minimum project requirements by allowing people to create a log in page, link FB and Instagram profiles, etc.
+       It will meet the minimum project requirements by allowing people to 
+       create a log in page, link FB and Instagram profiles, etc.
 
-Question 5. Why is your proposed Web application unique or creative beyond simply meeting the minimum requirements?
+Question 5. Why is your proposed Web application unique or creative beyond 
+simply meeting the minimum requirements?
 
-       My proposed web application is unique beyond simply meeting the minimum requirements because it will have the intended target audience, but also due to its nature could be used as an outlet for university students and other specialized groups to continue to bridge the gap between various international communities.
+       My proposed web application is unique beyond simply meeting the 
+       minimum requirements because it will have the intended target audience, 
+       but also due to its nature could be used as an outlet for university 
+       students and other specialized groups to continue to bridge the gap 
+       between various international communities.
 
 Additional Task
 https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/CHANGELOG.md
