@@ -2,6 +2,10 @@
 
 PenPal reLOADED is a new twist on an old concept. Unlike other pen pal approaches, we allow you to connect with people who have similar interests and tastes that allow you to expand your communication outside of your normal friend circle and learn more about the world around you. 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> refs/remotes/origin/master
 # Assignment 1.2 - Due 28 Jan 2017
 Question 1. What is the proposed name for your Web application? 
 
@@ -26,6 +30,10 @@ Question 5. Why is your proposed Web application unique or creative beyond simpl
 Additional Task
 https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/CHANGELOG.md
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> refs/remotes/origin/master
 ## Build status
 
 [![Build Status](https://travis-ci.org/infsci2560sp17/full-stack-web-J-StephanieRose.svg?branch=master)
