@@ -59,7 +59,9 @@ https://penpal-reloaded.herokuapp.com/
 
 ### Landing Page
 
-       For the landing page, I plan on creating a logo with adobe creative suite. If feasible, I hope to have it animated. Additionally, the color scheme for my site will be yellow, blue, black, and white. 
+       For the landing page, I plan on creating a logo with adobe creative suite.
+     If feasible, I hope to have it animated. Additionally, the color scheme for my 
+     site will be yellow, blue, black, and white. 
        
 
 ### User Input Form
