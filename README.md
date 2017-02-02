@@ -126,8 +126,6 @@ All known errors cause the resource to return HTTP error code header together wi
 
 ## Technologies Used
 
-TODO : List all technologies used in your project
-
 - [Spring Boot](https://projects.spring.io/spring-boot/) - Takes an opinionated view of building production-ready Spring applications.
 - [Codenvy] (https://codenvy.io)
 - [Maven](https://maven.apache.org/) - Apache Maven is a software project management and comprehension tool.
