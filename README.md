@@ -59,7 +59,8 @@ https://penpal-reloaded.herokuapp.com/
 
 ### Landing Page
 
-TODO : please provide a description of your landing page inluding a screen shot ![](https://.../image.JPG)
+       For the landing page, I plan on creating a logo with adobe creative suite. If feasible, I hope to have it animated. Additionally, the color scheme for my site will be yellow, blue, black, and white. 
+       
 
 ### User Input Form
 
