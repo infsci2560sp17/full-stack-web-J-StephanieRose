@@ -13,3 +13,6 @@ public folder created
 js folder created
 stylesheets folder created
 corresponding docs in folders (no code)
+
+### 02 Feb 2017
+Added in some info to various sections of the README section
