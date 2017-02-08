@@ -23,6 +23,9 @@ PenPal reLOADED is a new twist on an old concept. Unlike other pen pal approache
    
    ## 8) Tag your git hub repository with v1.3 (as shown here https://pitt.box.com/s/xswcfyy73nexf5p7votgoqhvdmgpzaok)
 
+### CHANGELOG.md
+https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/CHANGELOG.md
+
 ### Build status
 
 [![Build Status](https://travis-ci.org/infsci2560sp17/full-stack-web-J-StephanieRose.svg?branch=master)
