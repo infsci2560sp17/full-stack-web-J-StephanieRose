@@ -3,43 +3,17 @@
 PenPal reLOADED is a new twist on an old concept. Unlike other pen pal approaches, we allow you to connect with people who have similar interests and tastes that allow you to expand your communication outside of your normal friend circle and learn more about the world around you. 
 
 
-# Assignment 1.2 - Due 28 Jan 2017
-Question 1. What is the proposed name for your Web application? 
+# Assignment 1.3 - Due 18 Feb 2017
 
-       PenPal reLoaded, the idea is that this application would be a new twist on an old concept.
-
-Question 2. Who is the target audience for your Web application?
-
-       18-35, this is the target audience mainly to avoid age consent 
-requirements. Additionally, if this application were to be a success, it 
-would more than likely branch out to all ages. K-12 and if there is a market 
-for it, elderly communities for individuals who may not have a lot of mobility, 
-but would like to communicate to people outside of their homing environments.
-
-Question 3. What problem is it intended to solve for the target audience?
-
-       Having a chance to get to know people outside of their normal circle 
-       
-       through common interests and hobbies.
-
-Question 4. How will it meet the minimum project requirements?
-
-       It will meet the minimum project requirements by allowing people to 
-       create a log in page, link FB and Instagram profiles, etc.
-
-Question 5. Why is your proposed Web application unique or creative beyond 
-simply meeting the minimum requirements?
-
-       My proposed web application is unique beyond simply meeting the 
-       minimum requirements because it will have the intended target audience, 
-       but also due to its nature could be used as an outlet for university 
-       students and other specialized groups to continue to bridge the gap 
-       between various international communities.
-
-Additional Task
-https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/CHANGELOG.md
-
-
+   Full Stack Web Part 1 (initiated)
+   1) Create an Entity
+   2) Create a Respository
+   3) Create a RESTful web service and return JSON
+   4) Create a MVC Controller and implement GET & POST methods
+   5) Create a MVC Page and write it to your repository
+   6) Modify README.md to reflect summary changes
+   7) Modify CHANGELOG.md to reflect changes in more detail
+   8) Tag your git hub repository with v1.3 (as shown here https://pitt.box.com/s/xswcfyy73nexf5p7votgoqhvdmgpzaok)
 ## Build status
 
 [![Build Status](https://travis-ci.org/infsci2560sp17/full-stack-web-J-StephanieRose.svg?branch=master)
