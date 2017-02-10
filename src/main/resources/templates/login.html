@@ -5,10 +5,10 @@
     </head>
     <body>        
         <div data-th-if="${param.error}">
-            Invalid username and password.
+            Oops! Looks like you need to try logging in again!
         </div>
         <div data-th-if="${param.logout}">
-            You have been logged out.
+            THANKS FOR VISITING! Come back soon!
         </div>
         <form data-th-action="@{/login}" method="post">
             <div><label> User Name: <input type="text" name="username"/> </label></div>
