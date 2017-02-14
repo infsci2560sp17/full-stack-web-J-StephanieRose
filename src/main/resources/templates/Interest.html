@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User Home</title>
+    </head>
+    <body>
+        <h1 class="animated infinite bounce">[[${#httpServletRequest.remoteUser}]]'s Interest's</h1>
+
+        <div>
+            <table style="border: 1px solid black">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Hobby Type</th>
+                </tr>                
+                <tr data-th-each="interest : ${interest}">
+                    <td data-th-text="${interest.id}"></td>
+                    <td data-th-text="${interest.title}"></td>
+                    <td data-th-text="${interest.interestType}"></td>
+                </tr>
+            </table>
+        </div>
+        
+        <hr />
+        Add Hobby<br />
+        <form data-th-action="@{/interest/add}" name="addDvdForm" method="post">
+            Title: <input type="text" name="title" /><br />
+            Workout Type:<br />
+            <input type="radio" name="interestType" value="Unknown" checked="checked" /> Unknown<br />
+            <input type="radio" name="interestType" value="Strength" /> Strength<br />
+            <input type="radio" name="interestType" value="Cardio" /> Cardio<br />
+            <input type="radio" name="interestType" value="CrossTrain" /> CrossTrain<br />
+            <input type="submit" value="Add Workout"/>
+        </form>
+        
+        <hr />       
+        <form data-th-action="@{/logout}" method="post">
+            <input type="submit" value="Sign Out"/>
+        </form>
+    </body>
+</html>
