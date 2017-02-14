@@ -5,9 +5,47 @@
     </head>
     <body>
         <h1 data-th-inline="text">Hello [[${#httpServletRequest.remoteUser}]]!</h1>
-        <form data-th-action="@{/logout}" method="post">
-            <input type="submit" value="Sign Out"/>
-        </form>
+        <div>
+            <p align="center">HERE ARE YOUR INTERESTS</p>
+            <table style="border: 1px solid black">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Workout Type</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Knitting</td>
+                    <td>ArtsCrafts</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Challah Bread</td>
+                    <td>Cooking</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>2017 Super Bowl</td>
+                    <td>Sports</td>
+                </tr>
+            </table>
+        </div>
         
+        <hr />
+        Add Hobby<br />
+        <form name="addHobbyForm" method="post" action="/interest/add">
+            Title: <input type="text" name="title" /><br />
+            Workout Type:<br />
+            <input type="radio" name="interestType" value="Unknown" checked="checked" /> Other<br />
+            <input type="radio" name="interestType" value="ArtsCrafts" /> ArtsCrafts<br />
+            <input type="radio" name="interestType" value="Cooking" /> Cooking<br />
+            <input type="radio" name="interestType" value="Sports" /> Sports<br />
+            <input type="submit" value="Add Interest" />
+        <input type="hidden" name="_csrf" value="0ec0cd3f-c286-4db6-8bdd-35b010d3123e" /></form>
+        
+        <hr />       
+        <form method="post" action="/logout">
+            <input type="submit" value="Sign Out" />
+        <input type="hidden" name="_csrf" value="0ec0cd3f-c286-4db6-8bdd-35b010d3123e" /></form>
     </body>
 </html>
