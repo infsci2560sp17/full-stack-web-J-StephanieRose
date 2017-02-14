@@ -45,7 +45,8 @@ The command "./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V" fa
 
 ## Web Site
 
-https://penpal-reloaded.herokuapp.com/
+PenPal reLOADED
+
 
 ## Key Features
 
