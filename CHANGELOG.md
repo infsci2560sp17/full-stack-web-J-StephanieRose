@@ -21,3 +21,6 @@ Added in some info to various sections of the README section
 Added in Assignment 1.3 items to one of my respositories. Build seems to be failing. Will try to clear up bugs another day (https://github.com/J-StephanieRose/PenPal)
 
 ### 13 Feb 2017
+Completed assignment 1.3 and gave it a test run
+everything works
+pushed v3.1 assignment 1.3 tags
