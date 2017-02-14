@@ -4,9 +4,10 @@
         <title>User Home</title>
     </head>
     <body>
-        <h1 class="animated infinite bounce">[[${#httpServletRequest.remoteUser}]]'s Interest's</h1>
+        <h1>Your Interest's</h1>
 
         <div>
+            <p align="center">Centered Text</p>
             <table style="border: 1px solid black">
                 <tr>
                     <th>ID</th>
@@ -26,11 +27,11 @@
         <form data-th-action="@{/interest/add}" name="addDvdForm" method="post">
             Title: <input type="text" name="title" /><br />
             Workout Type:<br />
-            <input type="radio" name="interestType" value="Unknown" checked="checked" /> Unknown<br />
-            <input type="radio" name="interestType" value="Strength" /> Strength<br />
-            <input type="radio" name="interestType" value="Cardio" /> Cardio<br />
-            <input type="radio" name="interestType" value="CrossTrain" /> CrossTrain<br />
-            <input type="submit" value="Add Workout"/>
+            <input type="radio" name="interestType" value="Other" checked="checked" /> Other<br />
+            <input type="radio" name="interestType" value="ArtsCrafts" /> ArtsCrafts<br />
+            <input type="radio" name="interestType" value="Sports" /> Sports<br />
+            <input type="radio" name="interestType" value="Cooking" /> Cooking<br />
+            <input type="submit" value="Add Hobby"/>
         </form>
         
         <hr />       
