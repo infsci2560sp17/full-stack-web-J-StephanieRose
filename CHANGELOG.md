@@ -19,3 +19,5 @@ Added in some info to various sections of the README section
 
 ### 08 Feb 2017
 Added in Assignment 1.3 items to one of my respositories. Build seems to be failing. Will try to clear up bugs another day (https://github.com/J-StephanieRose/PenPal)
+
+### 13 Feb 2017
