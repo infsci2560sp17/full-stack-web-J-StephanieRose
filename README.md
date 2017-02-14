@@ -8,18 +8,25 @@ PenPal reLOADED is a new twist on an old concept. Unlike other pen pal approache
    Full Stack Web Part 1 (initiated)
    
 ### 1) Create an Entity
+       https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/models/Interest.java
    
 ### 2) Create a Respository
+       https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/repositories/InterestRespository
    
 ### 3) Create a RESTful web service and return JSON
+       https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/services/InterestService.java
    
 ### 4) Create a MVC Controller and implement GET & POST methods
+       https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/controllers/InterestController.java
    
 ### 5) Create a MVC Page and write it to your repository
+       https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/resources/templates/Interest.html
    
 ### 6) Modify README.md to reflect summary changes
+       https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/README.md
    
 ### 7) Modify CHANGELOG.md to reflect changes in more detail
+       https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/CHANGELOG.md
    
 ### 8) Tag your git hub repository with v1.3 (as shown here https://pitt.box.com/s/xswcfyy73nexf5p7votgoqhvdmgpzaok)
 
