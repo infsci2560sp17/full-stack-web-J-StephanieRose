@@ -3,7 +3,7 @@
 PenPal reLOADED is a new twist on an old concept. Unlike other pen pal approaches, we allow you to connect with people who have similar interests and tastes that allow you to expand your communication outside of your normal friend circle and learn more about the world around you. 
 
 
-# Assignment 1.3 - Due 18 Feb 2017
+## Assignment 1.3 - Due 18 Feb 2017
 
    Full Stack Web Part 1 (initiated)
    
@@ -26,10 +26,15 @@ PenPal reLOADED is a new twist on an old concept. Unlike other pen pal approache
 ### CHANGELOG.md
 https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/CHANGELOG.md
 
-### Build status
+## Build status
 
 [![Build Status](https://travis-ci.org/infsci2560sp17/full-stack-web-J-StephanieRose.svg?branch=master)
 
+Errors received from Travis CI
+The command "eval ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V " failed. Retrying, 3 of 3.
+The command "./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V" failed and exited with 1 during .
+
+*NOT SURE WHAT IT MEANS, BUT IT DOESNT LOOK LIKE ITS DUE TO CODE*
 
 ## Web Site
 
