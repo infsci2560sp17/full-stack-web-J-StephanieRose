@@ -1,42 +1,52 @@
 <!DOCTYPE html>
+
 <html>
     <head>
         <title>User Home</title>
     </head>
     <body>
-        <h1>Your Interest's</h1>
+        <h1>User's Hobbies!</h1>
 
         <div>
-            <p align="center">Centered Text</p>
+            <p align="center">HERE ARE YOUR INTERESTS</p>
             <table style="border: 1px solid black">
                 <tr>
                     <th>ID</th>
                     <th>Name</th>
-                    <th>Hobby Type</th>
-                </tr>                
-                <tr data-th-each="interest : ${interest}">
-                    <td data-th-text="${interest.id}"></td>
-                    <td data-th-text="${interest.title}"></td>
-                    <td data-th-text="${interest.interestType}"></td>
+                    <th>Workout Type</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Knitting</td>
+                    <td>ArtsCrafts</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Challah Bread</td>
+                    <td>Cooking</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>2017 Super Bowl</td>
+                    <td>Sports</td>
                 </tr>
             </table>
         </div>
         
         <hr />
         Add Hobby<br />
-        <form data-th-action="@{/interest/add}" name="addDvdForm" method="post">
+        <form name="addHobbyForm" method="post" action="/interest/add">
             Title: <input type="text" name="title" /><br />
             Workout Type:<br />
-            <input type="radio" name="interestType" value="Other" checked="checked" /> Other<br />
+            <input type="radio" name="interestType" value="Unknown" checked="checked" /> Other<br />
             <input type="radio" name="interestType" value="ArtsCrafts" /> ArtsCrafts<br />
-            <input type="radio" name="interestType" value="Sports" /> Sports<br />
             <input type="radio" name="interestType" value="Cooking" /> Cooking<br />
-            <input type="submit" value="Add Hobby"/>
-        </form>
+            <input type="radio" name="interestType" value="Sports" /> Sports<br />
+            <input type="submit" value="Add Interest" />
+        <input type="hidden" name="_csrf" value="0ec0cd3f-c286-4db6-8bdd-35b010d3123e" /></form>
         
         <hr />       
-        <form data-th-action="@{/logout}" method="post">
-            <input type="submit" value="Sign Out"/>
-        </form>
+        <form method="post" action="/logout">
+            <input type="submit" value="Sign Out" />
+        <input type="hidden" name="_csrf" value="0ec0cd3f-c286-4db6-8bdd-35b010d3123e" /></form>
     </body>
-</html>
