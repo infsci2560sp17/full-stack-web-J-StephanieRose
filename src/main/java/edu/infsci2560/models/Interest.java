@@ -17,7 +17,7 @@ import org.apache.commons.lang3.builder.HashCodeBuilder;
  * @author kolobj
  */
 @Entity
-public class Dvd {
+public class Interest {
 
     private static final long serialVersionUID = 1L;
 
