@@ -45,7 +45,7 @@ public class Dvd {
         this.interestType = InterestType.Unknown;
     }
 
-    public Dvd(Long id, String name, InterestType interestType) {
+    public Interest(Long id, String name, InterestType interestType) {
         this.id = id;
         this.title = name;
         this.interestType = intrestType;
