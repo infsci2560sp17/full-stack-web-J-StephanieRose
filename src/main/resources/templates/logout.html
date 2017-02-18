@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Goodbye Pal! </title>
+    </head>
+    <body>        
+        <div data-th-if="${param.error}">
+            Oops! Looks like you need to try logging out again!
+        </div>
+        <div data-th-if="${param.logout}">
+            THANKS FOR VISITING! Come back soon!
+        </div>
+        <form data-th-action="@{/logout}" method="post">
+            <div><label> User Name: <input type="text" name="username"/> </label></div>
+            <div><label> Password: <input type="password" name="password"/> </label></div>
+            <div><input type="submit" value="Sign Out"/></div>
+        </form>
+    </body>
+</html>
