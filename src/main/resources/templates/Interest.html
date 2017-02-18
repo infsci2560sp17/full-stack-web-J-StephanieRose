@@ -27,7 +27,7 @@
         
         <hr />
         Add Hobby<br />
-        <form name="addHobbyForm" method="post" action="/interest/add">
+        <form data-th-action="@{/interest/add}" name="addInterestForm" method="post">
             Title: <input type="text" name="title" /><br />
             Workout Type:<br />
             <input type="radio" name="interestType" value="Other" checked="checked" /> Other<br />
