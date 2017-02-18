@@ -17,7 +17,7 @@ import org.apache.commons.lang3.builder.HashCodeBuilder;
  * @author kolobj
  */
 @Entity
-public class Dvd {
+public class Interest {
 
     private static final long serialVersionUID = 1L;
 
@@ -42,13 +42,13 @@ public class Dvd {
     public Interest() {
         this.id = Long.MAX_VALUE;
         this.title = null;
-        this.interestType = InterestType.Unknown;
+        this.interestType = InterestType.Other;
     }
 
     public Interest(Long id, String name, InterestType interestType) {
         this.id = id;
         this.title = name;
-        this.interestType = intrestType;
+        this.interestType = interestType;
     }
 
     @Override
