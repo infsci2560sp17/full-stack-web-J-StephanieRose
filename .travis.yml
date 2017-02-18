@@ -5,3 +5,5 @@ jdk:
 ## Run Integration tests
 script: 
 - mvn verify
+before_install:
+  - chmod +x mvnw
