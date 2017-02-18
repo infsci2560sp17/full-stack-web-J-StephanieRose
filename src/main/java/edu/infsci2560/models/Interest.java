@@ -23,7 +23,7 @@ public class Interest {
 
     public enum InterestType {
         Other,
-        Arts_Crafts,
+        ArtsCrafts,
         Sports,
         Cooking,
         Reading,
