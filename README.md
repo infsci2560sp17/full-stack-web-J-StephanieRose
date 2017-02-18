@@ -11,7 +11,7 @@ PenPal reLOADED is a new twist on an old concept. Unlike other pen pal approache
   https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/models/Interest.java
    
 ### 2) Create a Respository
-  https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/repositories/InterestRespository
+  https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/repositories/InterestRepository.java
    
 ### 3) Create a RESTful web service and return JSON
   https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/services/InterestService.java
