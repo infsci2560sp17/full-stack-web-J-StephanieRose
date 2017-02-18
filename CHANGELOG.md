@@ -24,3 +24,10 @@ Added in Assignment 1.3 items to one of my respositories. Build seems to be fail
 Completed assignment 1.3 and gave it a test run
 everything works
 pushed v3.1 assignment 1.3 tags
+
+### 17 Feb 2017
+changed interest.java file
+corrected InterestRepository.java
+Travis CI build is back to passing
+Updated README.md to reflect assignment 1.3 deliverables
+Updated CHANGELOG.md to reflect more in depth changes

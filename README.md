@@ -37,11 +37,6 @@ https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/CHA
 
 [![Build Status](https://travis-ci.org/infsci2560sp17/full-stack-web-J-StephanieRose.svg?branch=master)
 
-Errors received from Travis CI
-The command "eval ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V " failed. Retrying, 3 of 3.
-The command "./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V" failed and exited with 1 during .
-
-*NOT SURE WHAT IT MEANS, BUT IT DOESNT LOOK LIKE ITS DUE TO CODE*
 
 ## Web Site
 
