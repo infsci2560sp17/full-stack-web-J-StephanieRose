@@ -17,19 +17,10 @@
                     <th>Hobby</th>
                 </tr>
                 <tr>
-                    <td>1</td>
-                    <td>Knitting</td>
-                    <td>ArtsCrafts</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Challah Bread</td>
-                    <td>Cooking</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>2017 Super Bowl</td>
-                    <td>Sports</td>
+                <tr data-th-each="interest : ${interest}">
+                    <td data-th-text="${interest.id}"></td>
+                    <td data-th-text="${interest.title}"></td>
+                    <td data-th-text="${interest.interestType}"></td>
                 </tr>
             </table>
         </div>
