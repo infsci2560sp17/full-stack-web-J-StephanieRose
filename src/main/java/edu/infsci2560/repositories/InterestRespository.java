@@ -12,4 +12,4 @@ import org.springframework.data.repository.PagingAndSortingRepository;
  *
  * @author kolobj
  */
-public interface DvdRepository extends PagingAndSortingRepository<Dvd, Long> {}
+public interface InterestRepository extends PagingAndSortingRepository<Interest, Long> {}
