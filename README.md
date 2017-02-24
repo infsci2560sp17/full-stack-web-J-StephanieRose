@@ -3,35 +3,34 @@
 PenPal reLOADED is a new twist on an old concept. Unlike other pen pal approaches, we allow you to connect with people who have similar interests and tastes that allow you to expand your communication outside of your normal friend circle and learn more about the world around you. 
 
 
-## Assignment 1.3 - Due 18 Feb 2017
+## Assignment 1.4 - Due 25 Mar 2017
 
-   Full Stack Web Part 1 (initiated)
+   Full Stack Web Part 2
    
-### 1) Create an Entity
-  https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/models/Interest.java
+### 1) Create 3-5 Entities
+
    
-### 2) Create a Respository
-  https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/repositories/InterestRepository.java
+### 2) Create 3-5 Respositories
+
    
-### 3) Create a RESTful web service and return JSON
-  https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/services/InterestService.java
+### 3) Create 3-5 RESTful web services and return JSON
+
+### 4) Create 3-5 additional MVC controllers
+
    
-### 4) Create a MVC Controller and implement GET & POST methods
-  https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/controllers/InterestController.java
-   
-### 5) Create a MVC Page and write it to your repository
-  https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/resources/templates/Interest.html
+### 5) Create 3-5 MVC pages
+
    
 ### 6) Modify README.md to reflect summary changes
-  https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/README.md
+
    
 ### 7) Modify CHANGELOG.md to reflect changes in more detail
-  https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/CHANGELOG.md
+
    
-### 8) Tag your git hub repository with v1.3 (as shown here https://pitt.box.com/s/xswcfyy73nexf5p7votgoqhvdmgpzaok)
 
 ### CHANGELOG.md
-https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/CHANGELOG.md
+[![Change log](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/CHANGELOG.md)
+
 
 ## Build status
 
