@@ -31,3 +31,6 @@ corrected InterestRepository.java
 Travis CI build is back to passing
 Updated README.md to reflect assignment 1.3 deliverables
 Updated CHANGELOG.md to reflect more in depth changes
+
+### 24 Feb 2017
+Updated new project delieverables 
