@@ -29,7 +29,7 @@ PenPal reLOADED is a new twist on an old concept. Unlike other pen pal approache
    
 
 ### CHANGELOG.md
-[![Change log](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/CHANGELOG.md)
+[Change Log](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/CHANGELOG.md)
 
 
 ## Build status
