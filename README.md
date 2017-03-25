@@ -40,6 +40,7 @@ PenPal reLOADED is a new twist on an old concept. Unlike other pen pal approache
 ## Web Site
 
 [PenPal relOADED](https://full-stack-web-j-stephanierose.herokuapp.com/)
+![](https://pitt-my.sharepoint.com/personal/jsr67_pitt_edu/_layouts/15/guestaccess.aspx?docid=12fe8d2bd2e724d609bb803e0ae8933b9&authkey=AXPv4NkNzacK0Jh0vBon1Tk)
 
 
 ## Key Features
