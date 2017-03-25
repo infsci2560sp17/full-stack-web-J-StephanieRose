@@ -7,24 +7,24 @@ PenPal reLOADED is a new twist on an old concept. Unlike other pen pal approache
 
    Full Stack Web Part 2
    
-### 1) Create 3-5 Entities
+#### 1) Create 3-5 Entities
 
    
-### 2) Create 3-5 Respositories
+#### 2) Create 3-5 Respositories
 
    
-### 3) Create 3-5 RESTful web services and return JSON
+#### 3) Create 3-5 RESTful web services and return JSON
 
-### 4) Create 3-5 additional MVC controllers
-
-   
-### 5) Create 3-5 MVC pages
+#### 4) Create 3-5 additional MVC controllers
 
    
-### 6) Modify README.md to reflect summary changes
+#### 5) Create 3-5 MVC pages
 
    
-### 7) Modify CHANGELOG.md to reflect changes in more detail
+#### 6) Modify README.md to reflect summary changes
+
+   
+#### 7) Modify CHANGELOG.md to reflect changes in more detail
 
    
 
