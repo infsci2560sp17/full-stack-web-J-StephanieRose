@@ -8,17 +8,57 @@ PenPal reLOADED is a new twist on an old concept. Unlike other pen pal approache
    Full Stack Web Part 2
    
 #### 1) Create 3-5 Entities
+            ArtsCrafts.java
+            Sports.java
+            Cooking.java
+            Reading.java
+            Volunteering.java
+            Gaming.java
+            Music.java
+            Fitness.java
 
    
 #### 2) Create 3-5 Respositories
+            ArtsCraftsRepository.java
+            SportsRepository.java
+            CookingRepository.java
+            ReadingRepository.java
+            VolunteeringRepository.java
+            GamingRepository.java
+            MusicRepository.java
+            FitnessRepository.java
 
    
 #### 3) Create 3-5 RESTful web services and return JSON
+            ArtsCraftsService.java
+            SportsService.java
+            CookingService.java
+            ReadingService.java
+            VolunteeringService.java
+            GamingService.java
+            MusicService.java
+            FitnessService.java
 
 #### 4) Create 3-5 additional MVC controllers
+            ArtsCraftsController.java
+            SportsController.java
+            CookingController.java
+            ReadingController.java
+            VolunteeringController.java
+            GamingController.java
+            MusicController.java
+            FitnessController.java
 
    
 #### 5) Create 3-5 MVC pages
+            ArtsCrafts.html
+            Sports.html
+            Cooking.html
+            Reading.html
+            Volunteering.html
+            Gaming.html
+            Music.html
+            Fitness.html
 
    
 #### 6) Modify README.md to reflect summary changes
