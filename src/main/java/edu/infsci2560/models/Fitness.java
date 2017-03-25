@@ -5,11 +5,7 @@
 
 
 * To change this license header, choose License Headers in Project Properties.
-
-
 * To change this template file, choose Tools | Templates
-
-
 * and open the template in the editor.
 
 
@@ -68,7 +64,7 @@ public class Fitness {
 
 
 
-   public enum MusicType {
+   public enum FitnessType {
 
 
        Other,
@@ -129,7 +125,7 @@ public class Fitness {
 
 
 
-   public Fitness(Long id, String name, MusicType musicType) {
+   public Fitness(Long id, String name, FitnessType fitnessType) {
 
 
        this.id = id;
