@@ -45,7 +45,7 @@ import org.apache.commons.lang3.builder.HashCodeBuilder;
 @Entity
 
 
-public class ArtsCrafts {
+public class Artscrafts {
 
 
 
@@ -61,7 +61,7 @@ public class ArtsCrafts {
 
 
 
-   public enum ArtsCraftsType {
+   public enum ArtscraftsType {
 
 
        Knitting,
@@ -98,7 +98,7 @@ public class ArtsCrafts {
    protected String title;
 
 
-   protected ArtsCraftsType artscraftsType;
+   protected ArtscraftsType artscraftsType;
 
 
 
@@ -106,7 +106,7 @@ public class ArtsCrafts {
 
 
 
-   public ArtsCrafts() {
+   public Artscrafts() {
 
 
        this.id = Long.MAX_VALUE;
@@ -115,7 +115,7 @@ public class ArtsCrafts {
        this.title = null;
 
 
-       this.artscraftsType = ArtsCraftsType.Other;
+       this.artscraftsType = ArtscraftsType.Other;
 
 
    }
@@ -126,7 +126,7 @@ public class ArtsCrafts {
 
 
 
-   public ArtsCrafts(Long id, String name, ArtsCraftsType artscraftsType) {
+   public Artscrafts(Long id, String name, ArtscraftsType artscraftsType) {
 
 
        this.id = id;
@@ -252,7 +252,7 @@ public class ArtsCrafts {
     */
 
 
-   public ArtsCraftsType getArtsCraftsType() {
+   public ArtscraftsType getArtscraftsType() {
 
 
        return artscraftsType;
@@ -275,7 +275,7 @@ public class ArtsCrafts {
     */
 
 
-   public void setArtsCraftsType(ArtsCraftsType artscraftsType) {
+   public void setArtscraftsType(ArtscraftsType artscraftsType) {
 
 
        this.artscraftsType = artscraftsType;
