@@ -71,7 +71,7 @@ public class Fitness {
        Aerobic,
        Anaerobic,
        StrengthTraining,
-       Caleshenics,
+       Calesthenics,
        Stretching
 
 

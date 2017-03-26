@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fitness Home</title>
+    </head>
+    <body>
+        <h1 data-th-inline="text">Wonderful World of Fitness</h1>
+
+        <div>
+            <table style="border: 1px solid black">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>FitnessType</th>
+                </tr>                
+                <tr data-th-each="fitness : ${fitness}">
+                    <td data-th-text="${fitness.id}"></td>
+                    <td data-th-text="${fitness.title}"></td>
+                    <td data-th-text="${fitness.fitnessType}"></td>
+                </tr>
+            </table>
+        </div>
+        
+        <hr />
+        Add Fitness<br />
+        <form data-th-action="@{/fitness/add}" name="addFitnessForm" method="post">
+            Title: <input type="text" name="title" /><br />
+            Fitness Type:<br />
+            <input type="radio" name="fitnessType" value="Other" checked="checked" /> Other<br />
+            <input type="radio" name="fitnessType" value="Aerobic" /> Aerobic<br />
+            <input type="radio" name="fitnessType" value="Anaerobic" /> Anaerobic<br />
+            <input type="radio" name="fitnessType" value="StrengthTraining /> StrengthTraining<br />
+            <input type="radio" name="fitnessType" value="Calesthenics /> Calesthenics<br />
+            <input type="submit" value="Add Fitness"/>
+        </form>
+        
+        <hr />
+            <a data-th-href="@{/files}">Upload a File</a>
+        <hr />
+        
+        <form data-th-action="@{/logout}" method="post">
+            <input type="submit" value="Sign Out"/>
+        </form>
+    </body>
+</html>
