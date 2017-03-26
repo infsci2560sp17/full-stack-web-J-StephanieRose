@@ -8,57 +8,57 @@ PenPal reLOADED is a new twist on an old concept. Unlike other pen pal approache
    Full Stack Web Part 2
    
 #### 1) Create 3-5 Entities
-            ArtsCrafts.java
-            Sports.java
-            Cooking.java
-            Reading.java
-            Volunteering.java
-            Gaming.java
-            Music.java
-            Fitness.java
+            [Artscrafts.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/models/Artscrafts.java)
+            [Sports.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/models/Sports.java)
+            [Cooking.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/models/Cooking.java)
+            [Reading.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/models/Reading.java)
+            [Volunteering.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/models/Volunteering.java)
+            [Gaming.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/models/Gaming.java)
+            [Music.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/models/Music.java)
+            [Fitness.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/models/Fitness.java)
 
    
 #### 2) Create 3-5 Respositories
-            ArtsCraftsRepository.java
-            SportsRepository.java
-            CookingRepository.java
-            ReadingRepository.java
-            VolunteeringRepository.java
-            GamingRepository.java
-            MusicRepository.java
-            FitnessRepository.java
+            [ArtsCraftsRepository.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/repositories/ArtscraftsRepository.java)
+            [SportsRepository.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/repositories/SportsRepository.java)
+            [CookingRepository.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/repositories/CookingRepository.java)
+            [ReadingRepository.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/repositories/ReadingRepository.java)
+            [VolunteeringRepository.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/repositories/VolunteeringRepository.java)
+            [GamingRepository.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/repositories/GamingRepository.java)
+            [MusicRepository.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/repositories/MusicRepository.java)
+            [FitnessRepository.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/repositories/FitnessRepository.java)
 
    
 #### 3) Create 3-5 RESTful web services and return JSON
-            ArtsCraftsService.java
-            SportsService.java
-            CookingService.java
-            ReadingService.java
-            VolunteeringService.java
-            GamingService.java
-            MusicService.java
-            FitnessService.java
+            [ArtsCraftsService.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/services/ArtscraftsService.java)
+            [SportsService.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/services/SportsService.java)
+            [CookingService.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/services/CookingService.java)
+            [ReadingService.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/services/ReadingService.java)
+            [VolunteeringService.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/services/VolunteeringService.java)
+            [GamingService.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/services/GamingService.java)
+            [MusicService.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/services/MusicService.java)
+            [FitnessService.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/services/FitnessService.java)
 
 #### 4) Create 3-5 additional MVC controllers
-            ArtsCraftsController.java
-            SportsController.java
-            CookingController.java
-            ReadingController.java
-            VolunteeringController.java
-            GamingController.java
-            MusicController.java
-            FitnessController.java
+            [ArtsCraftsController.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/controllers/ArtscraftsController.java)
+            [SportsController.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/controllers/SportsController.java)
+            [CookingController.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/controllers/CookingController.java)
+            [ReadingController.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/controllers/ReadingController.java)
+            [VolunteeringController.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/controllers/VolunteeringController.java)
+            [GamingController.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/controllers/GamingController.java)
+            [MusicController.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/controllers/MusicController.java)
+            [FitnessController.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/controllers/FitnessController.java)
 
    
 #### 5) Create 3-5 MVC pages
-            ArtsCrafts.html
-            Sports.html
-            Cooking.html
-            Reading.html
-            Volunteering.html
-            Gaming.html
-            Music.html
-            Fitness.html
+            [ArtsCrafts.html](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/resources/templates/artscrafts.html)
+            [Sports.html](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/resources/templates/sports.html)
+            [Cooking.html](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/resources/templates/cooking.html)
+            [Reading.html](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/resources/templates/reading.html)
+            [Volunteering.html](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/resources/templates/volunteering.html)
+            [Gaming.html](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/resources/templates/gaming.html)
+            [Music.html](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/resources/templates/music.html)
+            [Fitness.html](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/resources/templates/fitness.html)
 
    
 #### 6) Modify README.md to reflect summary changes
@@ -79,7 +79,7 @@ PenPal reLOADED is a new twist on an old concept. Unlike other pen pal approache
 
 ## Web Site
 
-[PenPal relOADED](https://full-stack-web-j-stephanierose.herokuapp.com/)
+[PenPal reLOADED](https://full-stack-web-j-stephanierose.herokuapp.com/)
 
 ![](https://pitt-my.sharepoint.com/personal/jsr67_pitt_edu/_layouts/15/guestaccess.aspx?docid=12fe8d2bd2e724d609bb803e0ae8933b9&authkey=AXPv4NkNzacK0Jh0vBon1Tk)
 
