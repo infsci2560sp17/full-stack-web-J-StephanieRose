@@ -1,28 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>User Home</title>
+        <title>Hobby Home</title>
     </head>
     <body>
-        <h1 data-th-inline="text">[[${#httpServletRequest.remoteUser}]]'s Hobbies!</h1>
+        <h1 data-th-inline="text">Other Interesting Hobbies!</h1>
 
         <div>
-            <table style="border: 6px solid blue">
-                <tr>
-                    <th>ID</th>
-                    <th>Name</th>
-                    <th>Interest Type</th>
-                </tr>                
-                <tr data-th-each="interest : ${interest}">
-                    <td data-th-text="${interest.id}"></td>
-                    <td data-th-text="${interest.title}"></td>
-                    <td data-th-text="${interest.interestType}"></td>
-                </tr>
-            </table>
-        </div>
-        <div>
-             <hr />
-             Current Hobbies<br />
                   <p>Click <a data-th-href="@{/artscrafts}">here</a> to select your interest in arts and crafts.</p>
                   <p>Click <a data-th-href="@{/cooking}">here</a> to select your cooking interest.</p>
                   <p>Click <a data-th-href="@{/sports}">here</a> to select your sporting interest.</p>
