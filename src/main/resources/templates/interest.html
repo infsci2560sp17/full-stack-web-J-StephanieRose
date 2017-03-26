@@ -22,7 +22,7 @@
         </div>
         <div>
              <hr />
-             Current Interests<br />
+             Current Hobbies<br />
                   <p>Click <a data-th-href="@{/artscrafts}">here</a> to select your interest in arts and crafts.</p>
                   <p>Click <a data-th-href="@{/cooking}">here</a> to select your cooking interest.</p>
                   <p>Click <a data-th-href="@{/sports}">here</a> to select your sporting interest.</p>
@@ -32,23 +32,6 @@
                   <p>Click <a data-th-href="@{/music}">here</a> to select your musical interest.</p>
                   <p>Click <a data-th-href="@{/fitness}">here</a> to select your fitness interest.</p>
        </div>
-        
-        <hr />
-        Add Interest<br />
-        <form data-th-action="@{/interest/add}" name="addInterestForm" method="post">
-            Title: <input type="text" name="title" /><br />
-            Interest Type:<br />
-            <input type="radio" name="interestType" value="Other" checked="checked" /> Other<br />
-            <input type="radio" name="interestType" value="ArtsCrafts" /> ArtsCrafts<br />
-            <input type="radio" name="interestType" value="Cooking" /> Cooking<br />
-            <input type="radio" name="interestType" value="Sports" /> Sports<br />
-            <input type="radio" name="interestType" value="Reading" /> Reading<br />
-            <input type="radio" name="interestType" value="Volunteering" /> Volunteering<br />
-            <input type="radio" name="interestType" value="Gaming" /> Gaming<br />
-            <input type="radio" name="interestType" value="Music" /> Music<br />
-            <input type="radio" name="interestType" value="Fitness" /> Fitness<br />
-            <input type="submit" value="Add Interest"/>
-        </form>
         
         <hr />       
         <form data-th-action="@{/logout}" method="post">
