@@ -34,3 +34,10 @@ Updated CHANGELOG.md to reflect more in depth changes
 
 ### 24 Feb 2017
 Updated new project delieverables 
+
+### 25 March 2017
+Added all deliverables for Assignment 1.4
+Updated home.html 
+Attempted to create sign up form (wouldnt load)
+Attempted to link new pages to the initial site layout (page would only load blank)
+
