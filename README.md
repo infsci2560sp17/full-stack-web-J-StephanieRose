@@ -9,12 +9,19 @@ PenPal reLOADED is a new twist on an old concept. Unlike other pen pal approache
    
 #### 1) Create 3-5 Entities
 [Artscrafts.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/models/Artscrafts.java)
+
 [Sports.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/models/Sports.java)
+
 [Cooking.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/models/Cooking.java)
+
 [Reading.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/models/Reading.java)
+
 [Volunteering.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/models/Volunteering.java)
+
 [Gaming.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/models/Gaming.java)
+
 [Music.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/models/Music.java)
+
 [Fitness.java](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/java/edu/infsci2560/models/Fitness.java)
 
    
