@@ -26,6 +26,7 @@
         <form data-th-action="@{/interest/add}" name="addInterestForm" method="post">
             Title: <input type="text" name="title" /><br />
             Interest Type:<br />
+            <link rel="stylesheet" href="https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/src/main/resources/templates/stylesheet/scrollbtn.css">
             <input type="radio" name="interestType" value="Other" checked="checked" /> Other<br />
             <input type="radio" name="interestType" value="ArtsCrafts" /> ArtsCrafts<br />
             <input type="radio" name="interestType" value="Cooking" /> Cooking<br />
@@ -37,7 +38,6 @@
             <input type="radio" name="interestType" value="Fitness" /> Fitness<br />
             <input type="submit" value="Add Interest"/>
         </form>
-        
         <hr />       
         <form data-th-action="@{/logout}" method="post">
             <input type="submit" value="Sign Out"/>
