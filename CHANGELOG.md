@@ -41,3 +41,6 @@ Updated home.html
 Attempted to create sign up form (wouldnt load)
 Attempted to link new pages to the initial site layout (page would only load blank)
 
+### 26 March 2017
+Issues with trying to upload and link css and the other pages created for the assignment deliverables.
+New attempts keep creating errors and/or hindering site availability
