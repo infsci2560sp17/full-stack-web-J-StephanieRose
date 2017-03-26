@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Hey Pal! Login! </title>
+        <title>User Home</title>
     </head>
-    <body>        
-        <div data-th-if="${param.error}">
-            Oops! Looks like you need to try logging in again!
+    <body>
+        <h1 data-th-inline="text">[[${#httpServletRequest.remoteUser}]]'s Hobbies!</h1>
+
+        <div>
+            <table style="border: 6px solid blue">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Interest Type</th>
+                </tr>                
+                <tr data-th-each="interest : ${interest}">
+                    <td data-th-text="${interest.id}"></td>
+                    <td data-th-text="${interest.title}"></td>
+                    <td data-th-text="${interest.interestType}"></td>
+                </tr>
+            </table>
         </div>
-        <div data-th-if="${param.logout}">
-            THANKS FOR VISITING! Come back soon!
-        </div>
-    
+         <hr />
+        Add Interest<br />
+        <form data-th-action="@{/interest/add}" name="addInterestForm" method="post">
+            Title: <input type="text" name="title" /><br />
+            Interest Type:<br />
+            <input type="radio" name="interestType" value="Other" checked="checked" /> Other<br />
+            <input type="radio" name="interestType" value="ArtsCrafts" /> ArtsCrafts<br />
+            <input type="radio" name="interestType" value="Cooking" /> Cooking<br />
+            <input type="radio" name="interestType" value="Sports" /> Sports<br />
+            <input type="radio" name="interestType" value="Reading" /> Reading<br />
+            <input type="radio" name="interestType" value="Volunteering" /> Volunteering<br />
+            <input type="radio" name="interestType" value="Gaming" /> Gaming<br />
+            <input type="radio" name="interestType" value="Music" /> Music<br />
+            <input type="radio" name="interestType" value="Fitness" /> Fitness<br />
+            <input type="submit" value="Add Interest"/>
+        </form>
+        
+        <hr />       
+        <form data-th-action="@{/logout}" method="post">
+            <input type="submit" value="Sign Out"/>
+        </form>
     </body>
 </html>
