@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sports Home</title>
+    </head>
+    <body>
+        <h1 data-th-inline="text">Wonderful World of Sports</h1>
+
+        <div>
+            <table style="border: 1px solid green">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Sports Type</th>
+                </tr>                
+                <tr data-th-each="sports : ${sports}">
+                    <td data-th-text="${sports.id}"></td>
+                    <td data-th-text="${sports.title}"></td>
+                    <td data-th-text="${sports.sportsType}"></td>
+                </tr>
+            </table>
+        </div>
+        
+        <hr />
+        Add Sports<br />
+        <form data-th-action="@{/sports/add}" name="addSportsForm" method="post">
+            Title: <input type="text" name="title" /><br />
+            Artscrafts Type:<br />
+            <input type="radio" name="sportsType" value="Other" checked="checked" /> Other<br />
+            <input type="radio" name="sportsType" value="Baseball" /> Baseball<br />
+            <input type="radio" name="sportsType" value="Basketball" /> Basketball<br />
+            <input type="radio" name="sportsType" value="Gymnastics" /> Gymnastics<br />
+            <input type="submit" value="Add Sports"/>
+        </form>
+        
+        <hr />
+            <a data-th-href="@{/files}">Upload a File</a>
+        <hr />
+        
+        <form data-th-action="@{/logout}" method="post">
+            <input type="submit" value="Sign Out"/>
+        </form>
+    </body>
+</html>
