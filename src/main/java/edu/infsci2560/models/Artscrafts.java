@@ -61,20 +61,12 @@ public class Artscrafts {
 
 
 
-   public enum Artscrafts {
-
-
-       Knitting,
-
-
-       Crocheting,
-
-
-       Pottery,
-
-
-       Sewing,
+   public enum ArtscraftsType {
        
+       Knitting,
+       Crocheting,
+       Pottery,
+       Sewing,
        Other
 
 
@@ -96,11 +88,10 @@ public class Artscrafts {
 
 
    protected String title;
-
-
+   
+   
    protected ArtscraftsType artscraftsType;
-
-
+   
 
 
 
