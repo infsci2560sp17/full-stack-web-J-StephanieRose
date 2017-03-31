@@ -61,7 +61,7 @@ public class Artscrafts {
 
 
 
-   public enum ArtscraftsType {
+   public enum InterestType {
        
        Knitting,
        Crocheting,
@@ -90,7 +90,7 @@ public class Artscrafts {
    protected String title;
    
    
-   protected ArtscraftsType artscraftsType;
+   protected InterestType interestType;
    
 
 
@@ -106,7 +106,7 @@ public class Artscrafts {
        this.title = null;
 
 
-       this.artscraftsType = ArtscraftsType.Other;
+       this.interestType = InterestType.Other;
 
 
    }
@@ -117,7 +117,7 @@ public class Artscrafts {
 
 
 
-   public Artscrafts(Long id, String name, ArtscraftsType artscraftsType) {
+   public Artscrafts(Long id, String name, InterestType interestType) {
 
 
        this.id = id;
@@ -126,7 +126,7 @@ public class Artscrafts {
        this.title = name;
 
 
-       this.artscraftsType = artscraftsType;
+       this.interestType = interestType;
 
 
    }
@@ -143,7 +143,7 @@ public class Artscrafts {
    public String toString() {
 
 
-       return "[ id=" + this.id + ", title=" + this.title + ", artscraftsType=" + this.artscraftsType + " ]";
+       return "[ id=" + this.id + ", title=" + this.title + ", interestType=" + this.interestType + " ]";
 
 
    }
@@ -243,10 +243,10 @@ public class Artscrafts {
     */
 
 
-   public ArtscraftsType getArtscraftsType() {
+   public InterestType getInterestType() {
 
 
-       return artscraftsType;
+       return interestType;
 
 
    }
@@ -266,10 +266,10 @@ public class Artscrafts {
     */
 
 
-   public void setArtscraftsType(ArtscraftsType artscraftsType) {
+   public void setInterestType(InterestType interestType) {
 
 
-       this.artscraftsType = artscraftsType;
+       this.interestType = interestType;
 
 
    }
