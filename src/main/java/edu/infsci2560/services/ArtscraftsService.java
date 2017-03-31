@@ -19,7 +19,7 @@ package edu.infsci2560.services;
 
 
 import edu.infsci2560.models.Artscrafts;
-import edu.infsci2560.models.Artscrafts.ArtscraftsType;
+import edu.infsci2560.models.Artscrafts.InterestType;
 import edu.infsci2560.repositories.ArtscraftsRepository;
 import java.util.ArrayList;
 import java.util.HashMap;
