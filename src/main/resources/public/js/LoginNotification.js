@@ -1,3 +1,4 @@
+/*globals logout */
 /*
  * source: lipp/login-with
  */
