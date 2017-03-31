@@ -61,21 +61,10 @@ public class Signup {
 
 
 
-   public enum Signup {
+   public enum SignupType {
 
 
-       Knitting,
-
-
-       Crocheting,
-
-
-       Pottery,
-
-
-       Sewing,
-       
-       Other
+       Penpal
 
 
    }
@@ -98,7 +87,7 @@ public class Signup {
    protected String title;
 
 
-   protected ArtscraftsType artscraftsType;
+   protected SignupType signupType;
 
 
 
@@ -106,7 +95,7 @@ public class Signup {
 
 
 
-   public Artscrafts() {
+   public Signup() {
 
 
        this.id = Long.MAX_VALUE;
@@ -115,7 +104,7 @@ public class Signup {
        this.title = null;
 
 
-       this.artscraftsType = ArtscraftsType.Other;
+       this.signupType = SignupType.Other;
 
 
    }
@@ -126,7 +115,7 @@ public class Signup {
 
 
 
-   public Artscrafts(Long id, String name, ArtscraftsType artscraftsType) {
+   public Signup(Long id, String name, SignupType signupType) {
 
 
        this.id = id;
@@ -135,7 +124,7 @@ public class Signup {
        this.title = name;
 
 
-       this.artscraftsType = artscraftsType;
+       this.signupType = signupType;
 
 
    }
@@ -152,7 +141,7 @@ public class Signup {
    public String toString() {
 
 
-       return "[ id=" + this.id + ", title=" + this.title + ", artscraftsType=" + this.artscraftsType + " ]";
+       return "[ id=" + this.id + ", title=" + this.title + ", signupType=" + this.signupType + " ]";
 
 
    }
@@ -246,16 +235,16 @@ public class Signup {
    /**
 
 
-    * @return the artscraftsType
+    * @return the signupType
 
 
     */
 
 
-   public ArtscraftsType getArtscraftsType() {
+   public SignupType getSignupType() {
 
 
-       return artscraftsType;
+       return signupType;
 
 
    }
@@ -269,16 +258,16 @@ public class Signup {
    /**
 
 
-    * @param artscraftsType the artscraftsType to set
+    * @param signupType the signupType to set
 
 
     */
 
 
-   public void setArtscraftsType(ArtscraftsType artscraftsType) {
+   public void setSignupType(SignupType signupType) {
 
 
-       this.artscraftsType = artscraftsType;
+       this.signupType = signupType;
 
 
    }
