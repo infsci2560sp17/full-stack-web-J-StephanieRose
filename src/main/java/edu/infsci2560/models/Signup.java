@@ -64,7 +64,8 @@ public class Signup {
    public enum SignupType {
 
 
-       Penpal
+       Penpal,
+       Other
 
 
    }
