@@ -45,7 +45,7 @@ import org.apache.commons.lang3.builder.HashCodeBuilder;
 @Entity
 
 
-public class Signup {
+public class Artscrafts {
 
 
 
@@ -61,7 +61,7 @@ public class Signup {
 
 
 
-   public enum Signup {
+   public enum Artscrafts {
 
 
        Knitting,
