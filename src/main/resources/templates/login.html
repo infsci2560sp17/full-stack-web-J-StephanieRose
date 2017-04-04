@@ -47,7 +47,7 @@
             </table> 
         </div> 
          <hr /> 
-        Add Interest<br /> <font color="white">
+        Add Interest<br />
         <form data-th-action="@{/interest/add}" name="addInterestForm" method="post"> 
             Title: <input type="text" name="title" /><br /> 
             Interest Type:<br /> 
@@ -62,7 +62,6 @@
             <input type="radio" name="interestType" value="Music" /> Music<br /> 
             <input type="radio" name="interestType" value="Fitness" /> Fitness<br /> 
             <input type="submit" value="Add Interest"/> 
-            </font>
         </form> 
         <hr />        
         <form data-th-action="@{/logout}" method="post"> 
