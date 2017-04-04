@@ -25,17 +25,17 @@
         <style> 
      
            body { 
-            background-image: url("https://images.template.net/wp-content/uploads/2015/04/black_texture_texture_background_01_hd_pictures.jpg"); 
+            background-image: url("https://www.tomswallpapers.com/large/201507/28675.jpg"); 
             } 
   
         </style>
-        <h1 data-th-inline="text">[[${#httpServletRequest.remoteUser}]]'s Hobbies!</h1> 
-        <p>Click <a data-th-href="@{/interest}">here</a> to check out some more hobbies.</p> 
+        <h1 data-th-inline="text"><font color="white">[[${#httpServletRequest.remoteUser}]]'s Hobbies!</font></h1> 
+        <p><font color="white">Click <a data-th-href="@{/interest}">here</a> to check out some more hobbies.</font></p> 
   
         <div> 
             <table style="border: 6px solid blue"> 
                 <tr> 
-                    <th>ID</th> 
+                    <th><font color="white">ID</font></th> 
                     <th>Name</th> 
                     <th>Interest Type</th> 
                 </tr>                 
@@ -47,7 +47,7 @@
             </table> 
         </div> 
          <hr /> 
-        Add Interest<br /> 
+        Add Interest<br /> <font color="white">
         <form data-th-action="@{/interest/add}" name="addInterestForm" method="post"> 
             Title: <input type="text" name="title" /><br /> 
             Interest Type:<br /> 
@@ -62,6 +62,7 @@
             <input type="radio" name="interestType" value="Music" /> Music<br /> 
             <input type="radio" name="interestType" value="Fitness" /> Fitness<br /> 
             <input type="submit" value="Add Interest"/> 
+            </font>
         </form> 
         <hr />        
         <form data-th-action="@{/logout}" method="post"> 
