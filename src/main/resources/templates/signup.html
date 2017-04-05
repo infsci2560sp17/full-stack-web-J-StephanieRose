@@ -1,85 +1,84 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Hey Pal! Login!</title>
-    </head>
-    <body>   
-        <div class="form">
-      
-      <ul class="tab-group">
-        <li class="tab active"><a href="#signup">Sign Up</a></li>
-        <li class="tab"><a href="#login">Log In</a></li>
-      </ul>
-      
-      <div class="tab-content">
-        <div id="signup">   
-          <h1>Sign Up for Free</h1>
-          
-          <form action="/" method="post">
-          
-          <div class="top-row">
-            <div class="field-wrap">
-              <label>
-                First Name<span class="req">*</span>
-              </label>
-              <input type="text" required autocomplete="off" />
-            </div>
-        
-            <div class="field-wrap">
-              <label>
-                Last Name<span class="req">*</span>
-              </label>
-              <input type="text"required autocomplete="off"/>
-            </div>
-          </div>
+<style>
+          body {
+            background-image: url("https://www.tomswallpapers.com/large/201507/28675.jpg");
+          }
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 6px solid #cc0066;
+    box-sizing: border-box;
+}
 
-          <div class="field-wrap">
-            <label>
-              Email Address<span class="req">*</span>
-            </label>
-            <input type="email"required autocomplete="off"/>
-          </div>
-          
-          <div class="field-wrap">
-            <label>
-              Set A Password<span class="req">*</span>
-            </label>
-            <input type="password"required autocomplete="off"/>
-          </div>
-          
-          
-          </form>
+/* Set a style for all buttons */
+button {
+    background-color: #2eb8b8;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
 
-        </div>
-        
-        <div id="login">   
-          <h1>Welcome Back!</h1>
-          
-          <form action="/" method="post">
-          
-            <div class="field-wrap">
-            <label>
-              Email Address<span class="req">*</span>
-            </label>
-            <input type="email"required autocomplete="off"/>
-          </div>
-          
-          <div class="field-wrap">
-            <label>
-              Password<span class="req">*</span>
-            </label>
-            <input type="password"required autocomplete="off"/>
-          </div>
-          
-          <p class="forgot"><a href="#">Forgot Password?</a></p>
-          
-          
-          </form>
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #8600b3;
+}
 
-        </div>
-        
-      </div><!-- tab-content -->
-      
-</div> <!-- /form -->
-    </body>
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+</style>
+<body>
+<center><img src="https://pitt-my.sharepoint.com/personal/jsr67_pitt_edu/_layouts/15/guestaccess.aspx?docid=12fe8d2bd2e724d609bb803e0ae8933b9&authkey=AXPv4NkNzacK0Jh0vBon1Tk"></center>
+<center><font color="white"><h2>Signup Form</h2></font></center>
+
+<form action="/action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <label><font color="white"><b>Email</b></font></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label><font color="white"><b>Password</b></font></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label><font color="white"><b>Repeat Password</b></font></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <input type="checkbox" checked="checked"> Remember me
+    <p><font color="white">By creating an account you agree to our <a href="#">Terms & Privacy</a>.</font></p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
+
+</body>
 </html>

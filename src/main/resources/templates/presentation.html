@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<h2 class="w3-center">PenPal reLOADED Presentation</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://pitt-my.sharepoint.com/personal/jsr67_pitt_edu/_layouts/15/guestaccess.aspx?docid=1f5276c9e706945438e404d19dbaf4989&authkey=AfGsK3caZwselXqYohPrRvA" style="width:100%">
+  <img class="mySlides" src="https://pitt-my.sharepoint.com/personal/jsr67_pitt_edu/_layouts/15/guestaccess.aspx?docid=1e89f0356c4a14c1bb42af80b6f168d9a&authkey=AWF6Q6FIxQHmEaEkCkmr8wA" style="width:100%">
+  <img class="mySlides" src="https://pitt-my.sharepoint.com/personal/jsr67_pitt_edu/_layouts/15/guestaccess.aspx?docid=145900fc176f343a4b79fef7039443557&authkey=AQfylWOhNkbG95P0zk1dlGU" style="width:100%">
+  <img class="mySlides" src="https://pitt-my.sharepoint.com/personal/jsr67_pitt_edu/_layouts/15/guestaccess.aspx?docid=1e93d79d658fd4f2a9badf5fe345d3d89&authkey=AQjWd_pQVmvfSIRbW4kVi3M" style="width:100%">
+  <img class="mySlides" src="https://pitt-my.sharepoint.com/personal/jsr67_pitt_edu/_layouts/15/guestaccess.aspx?docid=1b1d37bf1a571452887b9bf732e42fd11&authkey=AVqys_81WmDuIcSjjRlMOxk" style="width:100%">
+  <img class="mySlides" src="https://pitt-my.sharepoint.com/personal/jsr67_pitt_edu/_layouts/15/guestaccess.aspx?docid=1621e3f600c4840dc823651eaa22a5751&authkey=AbsG9BAKpVU4lgH4F0-s-nE" style="width:100%">
+  <img class="mySlides" src="https://pitt-my.sharepoint.com/personal/jsr67_pitt_edu/_layouts/15/guestaccess.aspx?docid=1ec9f9b7e480f472592e19f5b0a73fd61&authkey=ATx6cGEt4abUIoE-rJGprfY" style="width:100%">
+  <img class="mySlides" src="img_forest.jpg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>
