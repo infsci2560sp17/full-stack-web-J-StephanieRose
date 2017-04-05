@@ -38,7 +38,7 @@ public class FullStackWebApplication {
         CustomerRepository customerRepo = ctx.getBean(CustomerRepository.class);
         customerRepo.save(new Customer(1L, "Ororo", "Munro"));
         customerRepo.save(new Customer(2L, "Jean", "Grey"));
-        customerRepo.save(new Customer(3L, "Professor", "x"));
+        customerRepo.save(new Customer(3L, "Professor", "X"));
         customerRepo.save(new Customer(4L, "Raven", "Darkhölme"));
         
         RatingRepository ratingRepo = ctx.getBean(RatingRepository.class);
