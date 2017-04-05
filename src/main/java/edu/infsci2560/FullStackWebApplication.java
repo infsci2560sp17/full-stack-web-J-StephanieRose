@@ -1,8 +1,14 @@
+
 package edu.infsci2560;
 
+import edu.infsci2560.models.Customer;
 import edu.infsci2560.models.Interest;
 import edu.infsci2560.models.Interest.InterestType;
+import edu.infsci2560.models.Rating;
+import edu.infsci2560.models.RatingPk;
+import edu.infsci2560.repositories.CustomerRepository;
 import edu.infsci2560.repositories.InterestRepository;
+import edu.infsci2560.repositories.RatingRepository;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,8 +16,12 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+
 
 @SpringBootApplication
+//@ComponentScan({"edu.infsci2560.storage"})
+@ComponentScan({"edu.infsci2560"})
 public class FullStackWebApplication {
 
     private static final Logger log = LoggerFactory.getLogger(FullStackWebApplication.class);
@@ -19,10 +29,23 @@ public class FullStackWebApplication {
     public static void main(String[] args) {
         ApplicationContext ctx = SpringApplication.run(FullStackWebApplication.class, args);
 
-        InterestRepository repository = ctx.getBean(InterestRepository.class);
-        repository.save(new Interest(1L, "Beef Bourguignon", InterestType.Cooking));
-        repository.save(new Interest(2L, "Knitting", InterestType.ArtsCrafts));
-        repository.save(new Interest(3L, "Bible", InterestType.Reading));
+        InterestRepository interestRepo = ctx.getBean(InterestRepository.class);
+        interestRepo.save(new Interest(1L, "Beef Bourguignon", InterestType.Cooking));
+        interestRepo.save(new Interest(2L, "Knitting", InterestType.ArtsCrafts));
+        interestRepo.save(new Interest(3L, "NY Giants", InterestType.Sports));
+        interestRepo.save(new Interest(4L, "Coachella", InterestType.Music));
+        
+        CustomerRepository customerRepo = ctx.getBean(CustomerRepository.class);
+        customerRepo.save(new Customer(1L, "Ororo", "Munro"));
+        customerRepo.save(new Customer(2L, "Jean", "Grey"));
+        customerRepo.save(new Customer(3L, "Professor", "x"));
+        customerRepo.save(new Customer(4L, "Raven", "Darkhölme"));
+        
+        RatingRepository ratingRepo = ctx.getBean(RatingRepository.class);
+        ratingRepo.save(new Rating(new RatingPk(1L, 1L), 3));
+        ratingRepo.save(new Rating(new RatingPk(2L, 1L), 2));
+        ratingRepo.save(new Rating(new RatingPk(1L, 2L), 4));
+        ratingRepo.save(new Rating(new RatingPk(1L, 4L), 5));
     }
 
 
@@ -41,12 +64,12 @@ public class FullStackWebApplication {
 //        };
 //    }
 //    @Bean
-    public CommandLineRunner databaseDemo(CustomerRepository repository) {
+//    public CommandLineRunner databaseDemo(CustomerRepository repository) {
 //        return (args) -> {
 //            // save a couple of customers
-           repository.save(new Customer("Ororo", "Munro"));
-           repository.save(new Customer("Jean", "Grey"));
-           repository.save(new Customer("Professor", "X"));
+//            repository.save(new Customer("Jack", "Bauer"));
+//            repository.save(new Customer("Chloe", "O'Brian"));
+//            repository.save(new Customer("Kim", "Bauer"));
 //            repository.save(new Customer("David", "Palmer"));
 //            repository.save(new Customer("Michelle", "Dessler"));
 //            repository.save(new Customer("Billy", "Bean"));
