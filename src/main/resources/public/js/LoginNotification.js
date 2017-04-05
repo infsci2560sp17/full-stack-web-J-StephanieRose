@@ -13,3 +13,6 @@ export default ({profile, redirect}) => (
     <a href={`https://login.now.sh/logout?success=${redirect}`}> logout </a>
   </div>
 )
+
+<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+</fb:login-button>

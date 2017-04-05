@@ -41,12 +41,12 @@ public class FullStackWebApplication {
 //        };
 //    }
 //    @Bean
-//    public CommandLineRunner databaseDemo(CustomerRepository repository) {
+    public CommandLineRunner databaseDemo(CustomerRepository repository) {
 //        return (args) -> {
 //            // save a couple of customers
-//            repository.save(new Customer("Jack", "Bauer"));
-//            repository.save(new Customer("Chloe", "O'Brian"));
-//            repository.save(new Customer("Kim", "Bauer"));
+           repository.save(new Customer("Ororo", "Munro"));
+           repository.save(new Customer("Jean", "Grey"));
+           repository.save(new Customer("Professor", "X"));
 //            repository.save(new Customer("David", "Palmer"));
 //            repository.save(new Customer("Michelle", "Dessler"));
 //            repository.save(new Customer("Billy", "Bean"));
