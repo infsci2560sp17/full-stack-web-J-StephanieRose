@@ -5,7 +5,7 @@ PenPal reLOADED is a new twist on an old concept. Unlike other pen pal approache
 
 ## Assignment 1.5 & 1.6 - Due 25 Mar 2017
 Cleaning up my site...ran into some issues with the home.html, but the current version can be viewed here
-[![PenPal reLOADED Home](https://codenvy.io/36891_node12.codenvy.io/api/project/file/full-stack-web-J-StephanieRose/src/main/resources/templates/home.html?token=machine1cv16lbm0td7r7gxt830s2hw4mqqeaty3hdns7oiw0zokancy104iq8tlxsimg9oblhlg9p96xcbby8l2uqxo2qe8nkstrzba3dubloa4693u00bm66zs10xz1k26n8v)
+![PenPal reLOADED Home](https://codenvy.io/36891_node12.codenvy.io/api/project/file/full-stack-web-J-StephanieRose/src/main/resources/templates/home.html?token=machine1cv16lbm0td7r7gxt830s2hw4mqqeaty3hdns7oiw0zokancy104iq8tlxsimg9oblhlg9p96xcbby8l2uqxo2qe8nkstrzba3dubloa4693u00bm66zs10xz1k26n8v)
 
 ### CHANGELOG.md
 [Change Log](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/CHANGELOG.md)
