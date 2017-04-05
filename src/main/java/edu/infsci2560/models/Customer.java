@@ -19,9 +19,10 @@ public class Customer {
     private String firstName;
     private String lastName;
 
-    protected Customer() {}
+    public Customer() {}
 
-    public Customer(String firstName, String lastName) {
+    public Customer(Long id, String firstName, String lastName) {
+        this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
     }
@@ -73,4 +74,3 @@ public class Customer {
         this.lastName = lastName;
     }
 
-}
