@@ -16,5 +16,5 @@ import org.springframework.data.repository.PagingAndSortingRepository;
  * @author kolobj
  */
 public interface RatingRepository extends PagingAndSortingRepository<Rating, RatingPk> {
-    Page<Rating> findByRatingPkDvdId(Long dvdId, Pageable pageable);
+    Page<Rating> findByRatingPkInterestId(Long dvdId, Pageable pageable);
 }
