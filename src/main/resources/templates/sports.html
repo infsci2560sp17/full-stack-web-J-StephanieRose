@@ -2,12 +2,17 @@
 <html>
     <head>
         <title>Sports Home</title>
+                        <style>
+          body {
+            background-image: url("https://www.tomswallpapers.com/large/201507/28675.jpg");
+          }
+        </style>
     </head>
     <body>
-        <h1 data-th-inline="text">Wonderful World of Sports</h1>
+        <h1 data-th-inline="text"><font color="white">Wonderful World of Sports</font></h1>
 
-        <div>
-            <table style="border: 1px solid green">
+        <div><font color="white">
+            <table style="border: 6px solid green">
                 <tr>
                     <th>ID</th>
                     <th>Name</th>
@@ -19,9 +24,9 @@
                     <td data-th-text="${sports.sportsType}"></td>
                 </tr>
             </table>
-        </div>
+        </div></font>
         
-        <hr />
+        <hr /><font color="white">
         Add Sports<br />
         <form data-th-action="@{/sports/add}" name="addSportsForm" method="post">
             Title: <input type="text" name="title" /><br />
@@ -33,7 +38,7 @@
             <input type="submit" value="Add Sports"/>
         </form>
         
-        <hr />
+        <hr /></font>
             <a data-th-href="@{/files}">Upload a File</a>
         <hr />
         
