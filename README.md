@@ -3,7 +3,7 @@
 PenPal reLOADED is a new twist on an old concept. Unlike other pen pal approaches, we allow you to connect with people who have similar interests and tastes that allow you to expand your communication outside of your normal friend circle and learn more about the world around you. 
 
 
-## Assignment 1.5 & 1.6 - Due 25 Mar 2017
+## Assignment 1.5 & 1.6 - Due ?
 Cleaning up my site...ran into some issues with the home.html, but the current version can be viewed here
 [PenPal reLOADED Home](https://codenvy.io/36891_node12.codenvy.io/api/project/file/full-stack-web-J-StephanieRose/src/main/resources/templates/home.html?token=machine1cv16lbm0td7r7gxt830s2hw4mqqeaty3hdns7oiw0zokancy104iq8tlxsimg9oblhlg9p96xcbby8l2uqxo2qe8nkstrzba3dubloa4693u00bm66zs10xz1k26n8v)
 
