@@ -2,11 +2,16 @@
 <html>
     <head>
         <title>Reading Home</title>
+                <style>
+          body {
+            background-image: url("https://www.tomswallpapers.com/large/201507/28675.jpg");
+          }
+        </style>
     </head>
     <body>
-        <h1 data-th-inline="text">Wonderful World of Reading</h1>
+        <h1 data-th-inline="text"><center><font color="white">Wonderful World of Reading</font></center></h1>
 
-        <div>
+        <div><font color="white">
             <table style="border: 6px solid yellow">
                 <tr>
                     <th>ID</th>
@@ -19,9 +24,9 @@
                     <td data-th-text="${reading.readingType}"></td>
                 </tr>
             </table>
-        </div>
+        </div></font>
         
-        <hr />
+        <hr /><font color="white">
         Add Reading<br />
         <form data-th-action="@{/reading/add}" name="addReadingForm" method="post">
             Title: <input type="text" name="title" /><br />
@@ -31,7 +36,7 @@
             <input type="radio" name="readingType" value="Fiction" /> Fiction<br />
             <input type="radio" name="readingType" value="NonFiction /> NonFiction<br />
             <input type="submit" value="Add Reading"/>
-        </form>
+        </form></font>
         
         <hr />
             <a data-th-href="@{/files}">Upload a File</a>
@@ -41,4 +46,12 @@
             <input type="submit" value="Sign Out"/>
         </form>
     </body>
+                    <!-- Footer -->
+    <footer>
+         <div class="row">
+            <div class="col-lg-12">
+                <p><font color="white">Copyright &copy; PenPal reLOADED 2017</font></p>
+            </div>
+        </div>
+    </footer>
 </html>

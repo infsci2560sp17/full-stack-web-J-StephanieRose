@@ -2,11 +2,16 @@
 <html>
     <head>
         <title>Gaming Home</title>
+        <style>
+          body {
+            background-image: url("https://www.tomswallpapers.com/large/201507/28675.jpg");
+          }
+        </style>
     </head>
     <body>
-        <h1 data-th-inline="text">Wonderful World of Gaming</h1>
+        <h1 data-th-inline="text"><center><font color="white">Wonderful World of Gaming</font></center></h1>
 
-        <div>
+        <div><font color="white">
             <table style="border: 6px solid grey">
                 <tr>
                     <th>ID</th>
@@ -19,9 +24,9 @@
                     <td data-th-text="${gaming.gamingType}"></td>
                 </tr>
             </table>
-        </div>
+        </div></font>
         
-        <hr />
+        <hr /><font color="white">
         Add Gaming<br />
         <form data-th-action="@{/gaming/add}" name="addGamingForm" method="post">
             Title: <input type="text" name="title" /><br />
@@ -32,7 +37,7 @@
             <input type="radio" name="gamingType" value="Playstation /> Playstation<br />
             <input type="radio" name="gamingType" value="Xbox /> Xbox<br />
             <input type="submit" value="Add Gaming"/>
-        </form>
+        </form></font>
         
         <hr />
             <a data-th-href="@{/files}">Upload a File</a>
@@ -42,4 +47,12 @@
             <input type="submit" value="Sign Out"/>
         </form>
     </body>
+                    <!-- Footer -->
+    <footer>
+         <div class="row">
+            <div class="col-lg-12">
+                <p><font color="white">Copyright &copy; PenPal reLOADED 2017</font></p>
+            </div>
+        </div>
+    </footer>
 </html>
