@@ -28,7 +28,7 @@ input, select, button, textarea {
   padding: .75rem;
   margin: .375rem;
 
-  background-color: black;
+  background-color: transparent;
   border-radius: 4px;
 }
 
@@ -152,7 +152,7 @@ a {
 \*-----------------------------------*/
 
 html {
-  font: 100%/1.5 "Roboto", Verdana, sans-serif;
+  font: 100%/1.5 "Garamond", Verdana, sans-serif;
   color: #3d464d;
   background-color: #fff;
   -webkit-font-smoothing: antialiased;
