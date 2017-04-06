@@ -9,9 +9,9 @@
         </style>
     </head>
     <body>
-        <h1 data-th-inline="text"><font color="white">Wonderful World of Arts and Crafts</font></h1>
+        <h1 data-th-inline="text"><center><font color="white">Wonderful World of Arts and Crafts</font></center></h1>
 
-        <div>
+        <div><font color="white">
             <table style="border: 6px solid red">
                 <tr>
                     <th>ID</th>
@@ -24,9 +24,9 @@
                     <td data-th-text="${artscrafts.artscraftsType}"></td>
                 </tr>
             </table>
-        </div>
+        </div></font>
         
-        <hr />
+        <hr /><font color="white">
         Add Artscrafts<br />
         <form data-th-action="@{/artscrafts/add}" name="addArtscraftsForm" method="post">
             Title: <input type="text" name="title" /><br />
@@ -36,7 +36,8 @@
             <input type="radio" name="artscraftsType" value="Crocheting" /> Crocheting<br />
             <input type="radio" name="artscraftsType" value="Pottery" /> Pottery<br />
             <input type="submit" value="Add Artscrafts"/>
-        </form>
+        </form></font>
+        
           <div class="container">
        <br>
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
