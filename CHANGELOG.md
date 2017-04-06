@@ -47,3 +47,9 @@ New attempts keep creating errors and/or hindering site availability
 
 ### 30 March 2017
 Added images to site (still needs fixing, but it isnt giving me an error anymore)
+
+### 06 April 2017
+Still experiencing issues with home.html - sent email
+Added faux profiles (and linked them to one another)
+Site has additional functionality
+deleted logo from homepage to try to alleviate the persisting issue - still wont work
