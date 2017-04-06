@@ -2,17 +2,23 @@
 <html>
     <head>
         <title>Cooking Home</title>
+      <style>
+          body {
+            background-image: url("https://www.tomswallpapers.com/large/201507/28675.jpg");
+          }
+      </style>
     </head>
     <body>
-        <h1 data-th-inline="text">Wonderful World of Cooking</h1>
+        <center><h1 data-th-inline="text"><font color="white">Wonderful World of Cooking</font></h1></center>
+         <center><iframe width="560" height="315" src="https://www.youtube.com/embed/ZJy1ajvMU1k" frameborder="0" allowfullscreen></iframe></center>
 
         <div>
             <table style="border: 6px solid purple">
-                <tr>
+                <tr><font color="white">
                     <th>ID</th>
                     <th>Name</th>
                     <th>Cooking Type</th>
-                </tr>                
+                </tr></font>                
                 <tr data-th-each="cooking : ${cooking}">
                     <td data-th-text="${cooking.id}"></td>
                     <td data-th-text="${cooking.title}"></td>
@@ -21,9 +27,9 @@
             </table>
         </div>
         
-        <hr />
+        <hr /><font color="white">
         Add Cooking<br />
-        <form data-th-action="@{/cooking/add}" name="addCookingForm" method="post">
+        <form data-th-action="@{/cooking/add}" name="addCookingForm" method="post"><font color="white">
             Title: <input type="text" name="title" /><br />
             Cooking Type:<br />
             <input type="radio" name="cookingType" value="Other" checked="checked" /> Other<br />
@@ -31,9 +37,9 @@
             <input type="radio" name="cookingType" value="Japanese" /> Japanese<br />
             <input type="radio" name="cookingType" value="Spanish" /> Spanish<br />
             <input type="submit" value="Add Cooking"/>
-        </form>
+        </form></font>
         
-        <hr />
+        <hr /></font>
             <a data-th-href="@{/files}">Upload a File</a>
         <hr />
         
