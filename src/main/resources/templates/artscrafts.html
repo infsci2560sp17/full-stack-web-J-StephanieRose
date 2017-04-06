@@ -2,12 +2,17 @@
 <html>
     <head>
         <title>Arts and Crafts Home</title>
+                <style>
+          body {
+            background-image: url("https://www.tomswallpapers.com/large/201507/28675.jpg");
+          }
+        </style>
     </head>
     <body>
-        <h1 data-th-inline="text">Wonderful World of Arts and Crafts</h1>
+        <h1 data-th-inline="text"><font color="white">Wonderful World of Arts and Crafts</font></h1>
 
         <div>
-            <table style="border: 1px solid red">
+            <table style="border: 6px solid red">
                 <tr>
                     <th>ID</th>
                     <th>Name</th>
@@ -32,7 +37,47 @@
             <input type="radio" name="artscraftsType" value="Pottery" /> Pottery<br />
             <input type="submit" value="Add Artscrafts"/>
         </form>
-        
+          <div class="container">
+       <br>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+         <li data-target="#myCarousel" data-slide-to="1"></li>
+         <li data-target="#myCarousel" data-slide-to="2"></li>
+         <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="#" alt="add an alt" width="460" height="345">
+        </div>
+
+        <div class="item">
+          <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=6&cad=rja&uact=8&ved=0ahUKEwjSgcy85I3TAhUCwGMKHWl7A3wQtwIIMTAF&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DLnJTDCE9-jY&usg=AFQjCNGp9C_y56at7PAP1uzuKjE80-g7ug&sig2=6FuV0RRRXSRF82ImYoY4Vw" alt="Buzzfeed" width="460" height="345"></a>
+        </div>
+    
+        <div class="item">
+          <img src="#" alt="add an alt" width="460" height="345">
+        </div>
+
+        <div class="item">
+          <img src="#" alt="add an alt" width="460" height="345">
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+     </div>
+  </div>
         <hr />
             <a data-th-href="@{/files}">Upload a File</a>
         <hr />
