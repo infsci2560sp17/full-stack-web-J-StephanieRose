@@ -5,8 +5,7 @@ PenPal reLOADED is a new twist on an old concept. Unlike other pen pal approache
 
 ## Assignment 1.5 & 1.6 - Due ?
 Cleaning up my site...ran into some issues with the home.html, but the current version can be viewed here
-[PenPal reLOADED Home](https://codenvy.io/36891_node12.codenvy.io/api/project/file/full-stack-web-J-StephanieRose/src/main/resources/templates/home.html?token=machine1cv16lbm0td7r7gxt830s2hw4mqqeaty3hdns7oiw0zokancy104iq8tlxsimg9oblhlg9p96xcbby8l2uqxo2qe8nkstrzba3dubloa4693u00bm66zs10xz1k26n8v)
-
+[PenPal reLOADED Home](https://codenvy.io/40300_node16.codenvy.io/api/project/file/full-stack-web-J-StephanieRose/src/main/resources/templates/home.html?token=machinee1r3hh2fgn91v8tu85sygi6jd86ld2ca90la3cfmq8aa5kxvqk5tanop0yz4h09ond5q8aqjpbwawulu4v4u0nrjtnp4wudan548lblgm7nv1goui9aggs5z1wczb4j8)
 The error I am receiving is below. 
 ![](https://pitt-my.sharepoint.com/personal/jsr67_pitt_edu/_layouts/15/guestaccess.aspx?docid=10f691e97ea3f4914b7e04c442f159072&authkey=AUBtkJzZyfSF5JJ9olKyBoI)
 Error Received after running mvn package heroku -X
