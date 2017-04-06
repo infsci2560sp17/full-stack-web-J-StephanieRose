@@ -2,11 +2,64 @@
 <html>
     <head>
         <title>Music Home</title>
+        <style>
+          body {
+            background-image: url("https://www.tomswallpapers.com/large/201507/28675.jpg");
+          }
+.container {
+  border: 4px solid #ccc;
+  background-color: #eee;
+  border-radius: 3px;
+  padding: 8px;
+  margin: 8px 0
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container span {
+  font-size: 20px;
+  margin-right: 6px;
+}
+
+@media (max-width: 500px) {
+  .container {
+      text-align: center;
+  }
+  .container img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+</style>
     </head>
     <body>
-        <h1 data-th-inline="text">Wonderful World of Music</h1>
+        <h1 data-th-inline="text"><center><font color="white">Wonderful World of Music</font></center></h1>
+<h2><center><font color="white">What Other Music Heads Are Listening To</font></center></h2>
+<p>Resize the browser window to see the effect.</p>
 
-        <div>
+<div class="container">
+  <img src="http://themepack.me/i/c/749x468/media/g/149/iron-man-theme-1.jpg" alt="ironman" style="width:100px">
+  <p><span>Tony Starks</span> Stark Industries</p>
+  <p>Lovin Bad and Boujee by the Migos</p>
+</div>
+<div class="container">
+  <img src="https://static.comicvine.com/uploads/original/11122/111225301/4585147-she_hulk+%281%29.jpg" alt="shehulk" style="width:100px">
+  <p><span >Savage She-Hulk</span> Lawyer.</p>
+  <p>I think everyone should check out dirty laundry by Carrie Underwood</p>
+</div>
+
+        <div><font color="white">
             <table style="border: 6px solid pink">
                 <tr>
                     <th>ID</th>
@@ -19,9 +72,9 @@
                     <td data-th-text="${music.musicType}"></td>
                 </tr>
             </table>
-        </div>
+        </div></font>
         
-        <hr />
+        <hr /><font color="white">
         Add Music<br />
         <form data-th-action="@{/music/add}" name="addMusicForm" method="post">
             Title: <input type="text" name="title" /><br />
@@ -34,7 +87,7 @@
             <input type="submit" value="Add Music"/>
         </form>
         
-        <hr />
+        <hr /></font>
             <a data-th-href="@{/files}">Upload a File</a>
         <hr />
         
