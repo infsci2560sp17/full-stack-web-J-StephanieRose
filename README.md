@@ -9,7 +9,6 @@ Cleaning up my site...ran into some issues with the home.html, but the current v
 
 The error I am receiving is below. 
 ![](https://pitt-my.sharepoint.com/personal/jsr67_pitt_edu/_layouts/15/guestaccess.aspx?docid=10f691e97ea3f4914b7e04c442f159072&authkey=AUBtkJzZyfSF5JJ9olKyBoI)
-
 Error Received after runnoing mvn package heroku -X
 ![](https://pitt-my.sharepoint.com/personal/jsr67_pitt_edu/_layouts/15/guestaccess.aspx?docid=15c0bedda4a8f4dc3bcb7a93876c0f258&authkey=AcrFtZpetlh4wyRWG2MgS30)
 ### CHANGELOG.md
