@@ -4,12 +4,8 @@ PenPal reLOADED is a new twist on an old concept. Unlike other pen pal approache
 
 
 ## Assignment 1.5 & 1.6 - Due ?
-Cleaning up my site...ran into some issues with the home.html, but the current version can be viewed here
-[PenPal reLOADED Home](https://codenvy.io/40300_node16.codenvy.io/api/project/file/full-stack-web-J-StephanieRose/src/main/resources/templates/home.html?token=machinee1r3hh2fgn91v8tu85sygi6jd86ld2ca90la3cfmq8aa5kxvqk5tanop0yz4h09ond5q8aqjpbwawulu4v4u0nrjtnp4wudan548lblgm7nv1goui9aggs5z1wczb4j8)
-The error I am receiving is below. 
-![](https://pitt-my.sharepoint.com/personal/jsr67_pitt_edu/_layouts/15/guestaccess.aspx?docid=10f691e97ea3f4914b7e04c442f159072&authkey=AUBtkJzZyfSF5JJ9olKyBoI)
-Error Received after running mvn package heroku -X
-![](https://pitt-my.sharepoint.com/personal/jsr67_pitt_edu/_layouts/15/guestaccess.aspx?docid=15c0bedda4a8f4dc3bcb7a93876c0f258&authkey=AcrFtZpetlh4wyRWG2MgS30)
+Main error fixed....now just focusing on the other ones.
+
 ### CHANGELOG.md
 [Change Log](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/CHANGELOG.md)
 
