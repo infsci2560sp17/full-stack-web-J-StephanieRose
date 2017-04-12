@@ -53,3 +53,7 @@ Still experiencing issues with home.html - sent email
 Added faux profiles (and linked them to one another)
 Site has additional functionality
 deleted logo from homepage to try to alleviate the persisting issue - still wont work
+
+#####06 April 2017 Pt II
+Main error fixed (regular site link now working)
+Now to fix the other errors
