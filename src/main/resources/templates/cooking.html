@@ -13,23 +13,23 @@
          <center><iframe width="560" height="315" src="https://www.youtube.com/embed/ZJy1ajvMU1k" frameborder="0" allowfullscreen></iframe></center>
 
         <div>
-            <table style="border: 6px solid purple">
-                <tr><font color="white">
+            <font color="white"><table style="border: 6px solid purple">
+                <tr>
                     <th>ID</th>
                     <th>Name</th>
                     <th>Cooking Type</th>
-                </tr></font>                
+                </tr>               
                 <tr data-th-each="cooking : ${cooking}">
                     <td data-th-text="${cooking.id}"></td>
                     <td data-th-text="${cooking.title}"></td>
                     <td data-th-text="${cooking.cookingType}"></td>
                 </tr>
-            </table>
+           </font></table>
         </div>
         
         <hr /><font color="white">
         Add Cooking<br />
-        <form data-th-action="@{/cooking/add}" name="addCookingForm" method="post"><font color="white">
+        <form data-th-action="@{/cooking/add}" name="addCookingForm" method="post">
             Title: <input type="text" name="title" /><br />
             Cooking Type:<br />
             <input type="radio" name="cookingType" value="Other" checked="checked" /> Other<br />
