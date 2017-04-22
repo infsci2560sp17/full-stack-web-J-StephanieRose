@@ -12,6 +12,7 @@
         <h1><center><font color="white">Wonderful World of Volunteering</font></center></h1>
 
         <div>
+        <font color="white">
             <table style="border: 6px solid orange">
                 <tr>
                     <th>ID</th>
@@ -24,9 +25,10 @@
                     <td data-th-text="${volunteering.volunteeringType}"></td>
                 </tr>
             </table>
+            </font>
         </div>
         
-        <hr />
+        <hr /><font color="white">
         Add Volunteering<br />
         <form data-th-action="@{/volunteering/add}" name="addVolunteeringForm" method="post">
             Title: <input type="text" name="title" /><br />
@@ -36,7 +38,7 @@
             <input type="radio" name="volunteeringType" value="PittsburghCares" /> PittsburghCares<br />
             <input type="radio" name="volunteeringType" value="BikePittsburgh /> BikePittsburgh<br />
             <input type="submit" value="Add Volunteering"/>
-        </form>
+        </form></font>
         
         <hr />
             <a data-th-href="@{/files}">Upload a File</a>
