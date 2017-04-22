@@ -29,6 +29,7 @@
         </div>
         
         <hr />
+        <font color="white">
         Add Artscrafts<br />
         <form data-th-action="@{/artscrafts/add}" name="addArtscraftsForm" method="post">
             Title: <input type="text" name="title" /><br />
@@ -39,6 +40,7 @@
             <input type="radio" name="artscraftsType" value="Pottery" /> Pottery<br />
             <input type="submit" value="Add Artscrafts"/>
         </form>
+        </font>
         <hr />
             <a data-th-href="@{/files}">Upload a File</a>
         <hr />
