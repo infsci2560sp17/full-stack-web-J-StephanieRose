@@ -1,85 +1,88 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <style>
-             body {
-            background-image: url("https://www.tomswallpapers.com/large/201507/28675.jpg");
-              }
+<style>
+ body {
+ background-image: url("https://www.tomswallpapers.com/large/201507/28675.jpg");
+ }
+/* Full-width input fields */
+input[type=text], input[type=password] {
+ width: 100%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 6px solid #cc0066;
+ box-sizing: border-box;
+}
+/* Set a style for all buttons */
+button {
+ background-color: #2eb8b8;
+ color: white;
+ padding: 14px 20px;
+ margin: 8px 0;
+ border: none;
+ cursor: pointer;
+ width: 100%;
+}
+/* Extra styles for the cancel button */
+.cancelbtn {
+ padding: 14px 20px;
+ background-color: #8600b3;
+}
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+ float: left;
+ width: 50%;
+}
+/* Add padding to container elements */
+.container {
+ padding: 16px;
+}
+/* Clear floats */
+.clearfix::after {
+ content: "";
+ clear: both;
+ display: table;
+}
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+ .cancelbtn, .signupbtn {
+ width: 100%;
+ }
+}
+</style>
+<body>
+<center>
+ <img data-th-src="@{https://pittmy.sharepoint.com/personal/jsr67_pitt_edu/_layouts/15/guestaccess.aspx(docid=12fe8d2bd2
+e724d609bb803e0ae8933b9, authkey=AXPv4NkNzacK0Jh0vBon1Tk)}" alt="" />
+</center>
+<div>
+</div>
+<center><h2><font color="white">Signup Form</font></h2></center>
+<form action="/action_page.php" style="border:1px solid #ccc">
+ <div class="container">
+ <label><font color="white"><b>Email</b></font></label>
+ <input type="text" placeholder="Enter Email" name="email" required="required" />
+ <label><font color="white"><b>Password</b></font></label>
+ <input type="password" placeholder="Enter Password" name="psw" required="required" />
+ <label><font color="white"><b>Repeat Password</b></font></label>
+ <input type="password" placeholder="Repeat Password" name="psw-repeat"
+required="required" />
+ <input type="checkbox" checked="checked" /> Remember me
+ <p><font color="white">By creating an account you agree to our <a href="#">Terms &amp;
+Privacy</a>.</font></p>
+ <div class="clearfix">
+ <button type="button" class="cancelbtn">Cancel</button>
+ <button type="submit" class="signupbtn">Sign Up</button>
+ </div>
+ </div>
+</form>
+<footer>
+ <div class="row">
+ <div class="col-lg-12">
+ <p><font color="white">Copyright &copy; PenPal reLOADED 2017</font></p>
+ </div>
+ </div>
+ </footer>
+</body>
 
-             /* Full-width input fields */
-                   input[type=text], input[type=password] {
-                           width: 100%;
-                           padding: 12px 20px;
-                           margin: 8px 0;
-                           display: inline-block;
-                           border: 6px solid #cc0066;
-                           box-sizing: border-box;
-                    }
-
-                  /* Set a style for all buttons */
-                  button {
-                           background-color: #2eb8b8;
-                           color: white;
-                           padding: 14px 20px;
-                           margin: 8px 0;
-                           border: none;
-                           cursor: pointer;
-                           width: 100%;
-                  }
-
-                  /* Extra styles for the cancel button */
-                  .cancelbtn {
-                           padding: 14px 20px;
-                           background-color: #8600b3;
-                   }
-
-                  /* Float cancel and signup buttons and add an equal width */
-                  .cancelbtn,.signupbtn {
-                           float: left;
-                           width: 50%;
-                   }
-
-                  /* Add padding to container elements */
-                  .container {
-                          padding: 16px;
-                  }
-
-                  /* Clear floats */
-                  .clearfix::after {
-                          content: "";
-                          clear: both;
-                          display: table;
-                   }
-
-                /* Change styles for cancel button and signup button on extra small screens */
-                @media screen and (max-width: 300px) {
-                   .cancelbtn, .signupbtn {
-                         width: 100%;
-                     }
-                 }
-        </style>
-    </head>
-    
-    <body>
-            <center><font color="white"><h2>Signup Form</h2></font></center>
-             <form action="/action_page.php" style="border:1px solid #ccc">
-                    <div class="container">
-                   <font color="white">User name:<br></font>
-                   <input type="text" name="username"><br>
-                  <font color="white">  User password:<br></font>
-                   <input type="password" name="psw">
-                    
-                     
-                     <div class="clearfix">
-                        <button type="button" class="cancelbtn">Cancel</button>
-                        <button type="submit" class="signupbtn">Sign Up</button>
-                     </div>
-                     </div>
-             </form>
-        <footer>
-            <section>
-                 <p><font color="white">Copyright &copy; PenPal reLOADED 2017</font></p>
-            </section>
-        </footer>
-    </body>
 </html>
