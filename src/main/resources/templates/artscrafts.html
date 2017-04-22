@@ -12,12 +12,12 @@
         <h1 data-th-inline="text"><center><font color="white">Wonderful World of Arts and Crafts</font></center></h1>
 
         <div>
-           <table style="border: 6px solid red">
+          <font color="white"> <table style="border: 6px solid red"></font>
                 <tr>
-                    <th>ID</th>
-                    <th>Name</th>
-                    <th>Artscrafts Type</th>
-                </tr>             
+                    <font color="white"><th>ID</th></font>
+                    <font color="white"><th>Name</th>
+                  <font color="white"><th>Artscrafts Type</th></font>
+                </tr>     
                 <tr data-th-each="artscrafts : ${artscrafts}">
                     <td data-th-text="${artscrafts.id}"></td>
                     <td data-th-text="${artscrafts.title}"></td>
@@ -26,7 +26,7 @@
            </table>
         </div>
         
-        <hr /><font color="white">
+        <hr />
         Add Artscrafts<br />
         <form data-th-action="@{/artscrafts/add}" name="addArtscraftsForm" method="post">
             Title: <input type="text" name="title" /><br />
@@ -36,7 +36,7 @@
             <input type="radio" name="artscraftsType" value="Crocheting" /> Crocheting<br />
             <input type="radio" name="artscraftsType" value="Pottery" /> Pottery<br />
             <input type="submit" value="Add Artscrafts"/>
-        </form></font>
+        </form>
         <hr />
             <a data-th-href="@{/files}">Upload a File</a>
         <hr />
