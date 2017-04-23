@@ -57,3 +57,23 @@ deleted logo from homepage to try to alleviate the persisting issue - still wont
 #####06 April 2017 Pt II
 Main error fixed (regular site link now working)
 Now to fix the other errors
+
+### 22 April 2017
+Updated 
+      home.html
+      signup.html
+      about.html
+      artscrafts.html
+      cooking.html
+      sports.html
+      gaming.html
+      volunteering.html
+      reading.html
+      music.html
+      
+all of them seem to be showing and accessible.
+
+Some slight issues have been occuring with the post method in artscrafts, but the other pages seem to be allowing it. 
+
+I was unable to get file upload to work.
+Cleaned up each page.
