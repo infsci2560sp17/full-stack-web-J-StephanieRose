@@ -4,7 +4,7 @@ PenPal reLOADED is a new twist on an old concept. Unlike other pen pal approache
 
 
 ## FULL STACK WEB FINAL ASSISNGMENT
-At the beginning of the semester, I had hoped to have a fully accessible page. Despite some snafus, I believe the overall product is decent regards the conceptualization I had for this assignment. The goal was supposed to be a site that allowed people (pen pals), to share their intersts and possiby find new things to intrigue them. I had hoped to have the profile pages that I created work, but that seems to be far out of my knowledge base. Overall, by visiting my site, you can look at interests like arts and crafts, reading, sports, etc. The target audience is for individuals 18 or above.  
+At the beginning of the semester, I had hoped to have a fully accessible page. Despite some snafus, I believe the overall product is decent regards the conceptualization I had for this assignment. The goal was supposed to be a site that allowed people (pen pals), to share their interests and possiby find new things to intrigue them. I had hoped to have the profile pages that I created work, but that seems to be far out of my knowledge base. Overall, by visiting my site, you can look at interests like arts and crafts, reading, sports, etc. The target audience is for individuals 18 or above.  
 
 ### CHANGELOG.md
 [Change Log](https://github.com/infsci2560sp17/full-stack-web-J-StephanieRose/blob/master/CHANGELOG.md)
@@ -48,13 +48,13 @@ At the beginning of the semester, I had hoped to have a fully accessible page. D
 Aside from having user input forms like the examples provided, I included a sign up form (seen below)
  ![](https://pitt-my.sharepoint.com/personal/jsr67_pitt_edu/_layouts/15/guestaccess.aspx?docid=193773b5a06844bdcb1ce93718bb6ebff&authkey=AaetqZEHbDioE7QrsZYtNVk)
 
-### API Method 1
+### API Method(s)
 
    User can post additional intersts to each MVC page.
 
 #### Parameters
 
-The tags I used most in this assignment (besides the necessary ones (e.g. <html></html>), inluded <iframe>, <img src = "#">, <a href="#", and <font color="white">. 
+The tags I used most in this assignment (besides the necessary ones (e.g. <html></html>), inluded <iframe>, <img src = "#">, <a href="#",<font color="white">. 
 
 
 #### Errors
