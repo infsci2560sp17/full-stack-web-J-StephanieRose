@@ -3,7 +3,7 @@
 PenPal reLOADED is a new twist on an old concept. Unlike other pen pal approaches, we allow you to connect with people who have similar interests and tastes that allow you to expand your communication outside of your normal friend circle and learn more about the world around you. 
 
 
-## FULL STACK WEB FINAL ASSISNGMENT
+## FULL STACK WEB FINAL ASSIGNMENT
 At the beginning of the semester, I had hoped to have a fully accessible page. Despite some snafus, I believe the overall product is decent regards the conceptualization I had for this assignment. The goal was supposed to be a site that allowed people (pen pals), to share their interests and possiby find new things to intrigue them. I had hoped to have the profile pages that I created work, but that seems to be far out of my knowledge base. Overall, by visiting my site, you can look at interests like arts and crafts, reading, sports, etc. The target audience is for individuals 18 or above.  
 
 ### CHANGELOG.md
